@@ -468,8 +468,8 @@
             adddd(){
                 var logs = JSON.parse(localStorage.getItem('cmtd')||('[]'))
                 var logss = JSON.parse(localStorage.getItem('cmtx')||('[]'))
-                // localStorage.setItem('cmtd',JSON.stringify(this.list))
-                // localStorage.setItem('cmtx',JSON.stringify(this.list))
+                localStorage.setItem('cmtd',JSON.stringify(this.list))
+                localStorage.setItem('cmtx',JSON.stringify(this.list))
                 this.list=logs
             },
             add(index){
